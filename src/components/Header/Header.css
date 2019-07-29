@@ -1,0 +1,50 @@
+.headerStyle1,
+.headerStyle2 {
+    margin: 0;
+    padding: 1em 0;
+    font-family: 'Open Sans Condensed';
+    font-size: 1em;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns:20% 5% 50% 5% 20%;   
+    font-weight: bold;
+}
+
+.headerStyle2 {
+    position: fixed;
+    background: rgb(110,62,255);
+    z-index: 3;
+    margin: -4.5em 0 0 0;
+    box-shadow: 0 .125em rgba(0,0,0,0.6);
+}
+
+.headerStyle2-click {
+    margin-right: 20%;
+}
+
+#topics {
+    font-size: 1.5em;
+    font-family: 'Open Sans Condensed';
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#topics:hover,
+#main:hover {
+    color: rgba(255,255,255,0.4);
+}
+
+#main {
+    font-size: 1.75em;
+    text-decoration: none; 
+    color: rgba(255,255,255,0.8);
+}
+
+#logo {
+    height: 2em;
+    width: auto;
+}

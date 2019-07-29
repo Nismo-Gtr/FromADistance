@@ -1,0 +1,42 @@
+.sidebar {
+    font-family: 'Open Sans Condensed';
+    font-size: 2em;
+    font-weight: 100;
+    text-align: left;
+    background: rgb(110,62,255);
+    height: 100%; 
+    width: 20%;
+    position: fixed;
+    margin: -3em 0 0 80%;
+    padding: 1em 0;
+    z-index: 4;
+    box-shadow: -.125em 0 rgba(0,0,0,0.4);
+}
+
+.sidebar li {
+    margin: .25em 0;
+
+}
+
+.sidebar li a {
+    font-size: 1.25em;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.sidebar li a:hover {
+    color: rgba(255,255,255,0.4);
+}
+svg {
+    height: 1em;
+}
+#cross {
+    /* height: 1%; */
+    width: auto;
+    margin: 0;
+    padding: 0 0 0 80%;
+}
+
+#cross:hover {
+    fill: rgba(255,255,255,0.4);
+}
